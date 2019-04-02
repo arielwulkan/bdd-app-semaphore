@@ -1,0 +1,19 @@
+current directory: /mnt/c/code/bdd-app/vendor/bundle/ruby/2.6.0/gems/byebug-11.0.1/ext/byebug
+/home/ariel/.rbenv/versions/2.6.1/bin/ruby -I /home/ariel/.rbenv/versions/2.6.1/lib/ruby/site_ruby/2.6.0 -r ./siteconf20190402-10601-p4bxqp.rb extconf.rb
+creating Makefile
+
+current directory: /mnt/c/code/bdd-app/vendor/bundle/ruby/2.6.0/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /mnt/c/code/bdd-app/vendor/bundle/ruby/2.6.0/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+current directory: /mnt/c/code/bdd-app/vendor/bundle/ruby/2.6.0/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20190402-10601-218cdi/byebug
